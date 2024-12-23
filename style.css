@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: rgb(248, 251, 251);
 }
 
 
@@ -46,10 +47,11 @@ body{
     }
 
     60%{
-        background-color: rgba(255, 255, 255, 50%);
+        background-color: rgba(255, 255, 255, 70%);
     }
     100%{
         display: none;
+        background-color: rgba(255, 255, 255, 70%);
     }
 }
 
@@ -330,6 +332,67 @@ button:hover{
 .video button:hover{
     background-color: white !important;
     color: black !important;
+}
+
+.tavar{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.tavar > div{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.tavar > div div{
+    /* background-color: white; */
+    box-shadow: 0 0 90px 10px rgb(202, 202, 202);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 500ms;
+    background: linear-gradient(white 100%, rgb(223, 183, 109) 200%);
+    background-size: 200%;
+    transition: 500ms;
+}
+
+.tavar > div div:hover{
+    /* background-position: 100%; */
+    background-color: red;
+}
+
+
+.tavar i{
+    font-size: 80px;
+    color: rgb(223, 183, 109);
+}
+
+.tavar h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tavar p{
+    color: darkgray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tavar button{
+    padding: 10px 35px;
+    border-radius: 50px;
+    border: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(223, 183, 109);
+}
+
+.eat{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
 }
 
 
